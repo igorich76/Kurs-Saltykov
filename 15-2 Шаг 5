@@ -1,0 +1,9 @@
+##
+var n := ReadlnInteger();
+var (a, min) := (0, 30001);
+for var i := 1 to n do
+begin
+  Read(a);
+  if (a mod 10 = 4) and (a < min) then min := a;
+end;
+min.Print;
