@@ -1,0 +1,9 @@
+##
+var (n,cnt) := (1,0);
+while n > 0 do
+begin
+  var a := ReadlnInteger;
+  if (a = 0) then break;
+  if (a mod 2 = 0) and (a mod 7 = 0) then cnt += 1
+end; 
+cnt.Print;
