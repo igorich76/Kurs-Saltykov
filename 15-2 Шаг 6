@@ -1,0 +1,9 @@
+##
+var (n,sum) := (1,0);
+while n > 0 do
+begin
+  var a := ReadlnInteger;
+  if (a mod 6 = 0) and (a mod 10 = 6) then sum += a;
+  if (a = 0) then break;
+end; 
+sum.Print;
